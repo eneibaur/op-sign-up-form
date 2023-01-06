@@ -23,6 +23,7 @@ div .column1 {
 
 div .column2 {
     background-color: var(--background-color);
+    flex: 3 3 auto;
 }
 
 img {
