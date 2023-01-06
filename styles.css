@@ -1,5 +1,8 @@
 :root {
     --background-color: black;
+    --text-color: white;
+    background-color: var(--background-color);
+    color: var(--text-color);
 }
 
 body {
@@ -10,6 +13,10 @@ body {
 div .column1 {
     background-color: var(--background-color);
     flex: 1 1 0;
+}
+
+div .column2 {
+    background-color: var(--background-color);
 }
 
 img {
