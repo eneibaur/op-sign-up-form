@@ -12,6 +12,7 @@ body {
 div {
     /* for diagnostic purposes */
     border: 1px solid red;
+    padding: 5px;
 }
 
 div .column1 {
