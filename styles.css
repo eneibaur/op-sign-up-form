@@ -17,10 +17,6 @@ ul {
     justify-content: space-around;
 }
 
-ul >li {
-    
-}
-
 div {
     /* for diagnostic purposes */
     border: 1px solid red;
