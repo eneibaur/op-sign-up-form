@@ -37,3 +37,7 @@ img {
     max-width: 50%;
     height: auto;
 }
+
+form h2 {
+    text-align: center;
+}
