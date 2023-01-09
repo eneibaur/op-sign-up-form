@@ -3,6 +3,7 @@
 :root {
     --background-color: black;
     --text-color: white;
+    --secondary-color: rgba(139, 25, 25, 0.2);
     background-color: var(--background-color);
     color: var(--text-color);
 }
@@ -94,6 +95,14 @@ h2:before, h2:after {
     content: '\a0';
     background-color: var(--text-color);
 }
+
+div.form {
+    background-color: var(--secondary-color);
+    padding: 30px;
+    border-radius: 1rem;
+    margin-right: 2rem;
+}
+
 h2:before {
     margin-left: -50%;
     text-align: right;
