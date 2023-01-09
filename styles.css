@@ -28,8 +28,8 @@ div {
 
 div.column1 {
     background-image: url("./images/venrick-azcueta-Ngu3tsqmcRg-unsplash.jpg");
-    background-position: bottom center;
-    background-size: 100vh;
+    background-position: top center;
+    background-size: auto 1500px;
     background-color: var(--background-color);
     flex: 1 1 0;
     position: relative;
@@ -53,6 +53,7 @@ figure > figcaption {
 div.column2 {
     background-color: var(--background-color);
     flex: 2 1 0;
+    /* height: 100vh; */
 }
 
 img {
