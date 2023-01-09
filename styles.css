@@ -32,10 +32,10 @@ div.column1 {
     background-size: auto 1500px;
     background-color: var(--background-color);
     flex: 2 1 0;
-    position: relative;
     height: 100vh;
     margin-left: 2rem;
     padding: 0%;
+    position: relative;
 }
 
 div.spanner {
@@ -55,10 +55,13 @@ div.spanner {
     max-height: 150px;   
 }
 
-
-figure > figcaption {
+div > figcaption {
     position: absolute;
-
+    width: 100%;
+    padding: 5px;
+    background-color: rgba(17, 16, 16, 0.8);
+    text-align: center;
+    bottom: 0;
 }
 
 div.column2 {
