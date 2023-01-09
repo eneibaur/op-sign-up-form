@@ -24,15 +24,15 @@ div {
     width: 100%;
 }
 
-div .column1 {
+div.column1 {
     background-image: url("./images/venrick-azcueta-Ngu3tsqmcRg-unsplash.jpg");
     background-color: var(--background-color);
     flex: 1 1 0;
 }
 
-div .column2 {
+div.column2 {
     background-color: var(--background-color);
-    flex: 3 3 auto;
+    flex: 2 1 0;
 }
 
 img {
