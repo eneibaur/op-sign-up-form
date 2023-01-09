@@ -55,8 +55,9 @@ div.spanner {
     max-height: 150px;   
 }
 
-h2 {
+h1{
     font-family: 'Teko', sans-serif;
+    font-size: 3rem;
 }
 
 div > figcaption {
