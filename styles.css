@@ -64,3 +64,10 @@ h2:before {
 .color {
     background-color: #ccc;
 }
+label {
+    display:block;
+}
+
+textarea { 
+    display:block;
+}
