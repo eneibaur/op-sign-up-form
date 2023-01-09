@@ -31,7 +31,7 @@ div.column1 {
     background-position: top center;
     background-size: auto 1500px;
     background-color: var(--background-color);
-    flex: 1 1 0;
+    flex: 2 1 0;
     position: relative;
     height: 100vh;
     margin-left: 2rem;
@@ -54,7 +54,7 @@ figure > figcaption {
 
 div.column2 {
     background-color: var(--background-color);
-    flex: 2 1 0;
+    flex: 3 1 0;
     /* height: 100vh; */
 }
 
