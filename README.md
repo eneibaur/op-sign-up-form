@@ -5,7 +5,7 @@ Image source: https://unsplash.com/photos/Ngu3tsqmcRg?utm_source=unsplash&utm_me
 
 Remaining Tasks:
 
-Style text above form
-style form input elements
-style submit button
-Add hover, active feedback to input elements
+Style text above form (COMPLETE)
+style form input elements (COMPLETE)
+style submit button (COMPLETE)
+Add hover, active feedback to input elements (COMPLETE)
