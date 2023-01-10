@@ -4,6 +4,7 @@
     --background-color: black;
     --text-color: white;
     --secondary-color: rgba(139, 25, 25, 0.2);
+    --tertiary-color: rgb(8, 80, 74);
     background-color: var(--background-color);
     color: var(--text-color);
 }
@@ -35,7 +36,7 @@ form {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     overflow: auto;
     gap: 2rem;
 }
@@ -133,6 +134,35 @@ textarea {
     overflow-wrap: normal;
 }
 
-/* textarea { 
-    display:block;
-} */
+button[type=submit]{
+    box-sizing: border-box;
+    background-color: var(--tertiary-color);
+    color: black;
+    border: 2px solid black;
+    height: 50px;
+    width: 200px;
+    border-radius: 1rem;
+    font-size: 2rem;
+    font-family: 'Teko', sans-serif;
+}
+
+button[type=submit]:hover{
+    animation-name: color;
+    animation-duration: 1.5s; 
+    animation-iteration-count: infinite;
+}
+
+@keyframes color {
+    0% {
+      background-color: var(--tertiary-color);
+      color: black;
+    }
+    50% {
+      background-color: #0cb8ec;
+      color: white;
+    }
+    100% {
+      background-color: var(--tertiary-color);
+      color: black;
+    }
+  }
