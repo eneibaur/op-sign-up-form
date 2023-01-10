@@ -24,7 +24,14 @@ ul {
 
 div {
     padding: 5px;
-    width: 100%;
+}
+
+.formrow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
 }
 
 div.column1 {
