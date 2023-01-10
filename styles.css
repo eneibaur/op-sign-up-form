@@ -127,6 +127,12 @@ label[for=char_name], label[for=affiliation] {
     display: inline;
 }
 
+textarea {
+    width: 100%;
+    overflow: hidden;
+    overflow-wrap: normal;
+}
+
 /* textarea { 
     display:block;
 } */
