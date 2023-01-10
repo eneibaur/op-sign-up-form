@@ -23,7 +23,7 @@
                     <p>Sign up <em>now</em> to begin your journey.</p>
                     <p>It is not only <em>your</em> destiny. It is <em>theirs</em>.</p>
                 </div>
-                <div class="form">
+                <div id="form">
                     <p>Required fields are followed by <span aria-label="required">*</span>.</p>
                     <form action="" method="get">
                         <h2>User</h2>
@@ -37,24 +37,30 @@
                                     <input type="text" name="last_name" id="last_name" required>
                                 </p>
                         </div>
-                        <p>
-                            <label for="password">Password:<span aria-label="required">*</span></label>
-                            <input type="password" name="password" id="password">
-                        </p>
-                        <p>
-                            <label for="confirm_password">Confirm Password: <span aria-label="required">*</span></label>
-                            <input type="password" name="confirm_password" id="confirm_password">
-                        </p>
-                        <p>
-                            <label for="email">Email:<span aria-label="required">*</span></label>
-                            <input type="email" name="email" id="email">
-                        </p>
-                        <p>
-                            <label for="newsletter">
-                                <input type="checkbox" name="newsletter" id="newsletter" checked>
-                                Sign up for our newsletter
-                            </label>
-                        </p>
+                        <div class="formrow">
+                            <p>
+                                <label for="password">Password:<span aria-label="required">*</span></label>
+                                <input type="password" name="password" id="password">
+                            </p>
+                            <p>
+                                <label for="confirm_password">Confirm Password: <span aria-label="required">*</span></label>
+                                <input type="password" name="confirm_password" id="confirm_password">
+                            </p>
+                        </div>
+                        <div class="formrow">
+                            <p>
+                                <label for="email">Email:<span aria-label="required">*</span></label>
+                                <input type="email" name="email" id="email">
+                            </p>
+                        </div>
+                        <div class="formrow">
+                            <p>
+                                <label for="newsletter">
+                                    <input type="checkbox" name="newsletter" id="newsletter" checked>
+                                    Sign up for our newsletter
+                                </label>
+                            </p>
+                        </div>
                         <h2>Your Avatar</h2>
                         <fieldset>
                             <legend>Choose your class:<span aria-label="required">*</span></legend>
